@@ -16,7 +16,7 @@ print_UrlBuilderWithHost apiKey resource id = do
   putStrLn $ urlBuilderWithHost apiKey resource id                                          
 
 -- We can even pre-supply all parameters except the id:
-urlBuilderWithHostAndResource = urlBuilderWithHost "1337hAsk3ll"
+urlBuilderId = urlBuilderWithHost "API_KEY" "books"
 
-urlBuilderWithHostAndResource id = do
-  putStrLn $ urlBuilderWithHost "API_KEY" "books"  id                                          
+print_urlBuilderId id = do
+  putStrLn $ urlBuilderId id                                          
