@@ -17,4 +17,4 @@ Remember to load the file again to compile changes:
 
 Exit stack: 
 
-```ctrl+d```
+```ctrl-d```
