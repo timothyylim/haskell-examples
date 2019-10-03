@@ -15,6 +15,6 @@ Remember to load the file again to compile changes:
 > :l lambda-functions.hs
 ```
 
-Exit stack: 
+Exit ghci: 
 
 ```ctrl-d```
