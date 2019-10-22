@@ -18,5 +18,11 @@ incIfEven x = return $ ifEven inc x
 tripIfEven :: Int -> IO Int
 tripIfEven x = return $ ifEven (\y -> y*3) x  
 
-
 -- Returning Functions
+getFunction amount = case amount of -- doing a case
+    "one" -> incIfEven
+    _ -> tripIfEven -- this is applied if the case doesnn't match
+
+-- To call it: 
+-- *Main> getFunction "one" 2
+-- 3
