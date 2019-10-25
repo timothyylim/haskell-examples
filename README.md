@@ -1,5 +1,9 @@
 # Haskell Examples
 
+From the book:
+
+https://livebook.manning.com/book/get-programming-with-haskell/
+
 How to run the modules:
 
 ```
